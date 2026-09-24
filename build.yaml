@@ -26,7 +26,14 @@ include:
 
   # Corne keyboard halves with built-in OLED displays
   - board: nice_nano//zmk
+    shield: corne_hw_le- board: nice_nano//zmk
     shield: corne_hw_left
+    snippet: studio-rpc-usb-uart
+    artifact-name: corne_hw_left_nice_nano
+
+  - board: nice_nano//zmk
+    shield: corne_hw_right
+    artifact-name: corne_hw_right_nice_nanoft
     snippet: studio-rpc-usb-uart
   - board: nice_nano//zmk
     shield: corne_hw_right
